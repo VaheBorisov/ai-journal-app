@@ -1,36 +1,12 @@
-import { Tabs, useRouter } from 'expo-router';
+import { Tabs } from 'expo-router';
 
-import { Card } from 'tamagui';
-import { Pressable, StyleSheet, useColorScheme } from 'react-native';
+import { useColorScheme } from 'react-native';
 
+import PlusButton from '@/components/PlusButton';
 import { HapticTab } from '@/components/haptic-tab';
 import { IconSymbol } from '@/components/ui/icon-symbol';
 
 import { Colors } from '@/constants/theme';
-
-function PlusButton() {
-  const router = useRouter();
-
-  return (
-    <Card
-      bg="$purple9"
-      position="absolute"
-      top={-20}
-      borderColor="$purple9"
-      borderRadius="$10"
-      width={60}
-      height={60}
-      alignSelf="center"
-    >
-      <Pressable
-        onPress={() => router.push('/new-entry')}
-        style={({ pressed }) => [{ opacity: pressed ? 0.8 : 1 }, styles.plusButtonInner]}
-      >
-        <IconSymbol size={24} name="plus" color="white" />
-      </Pressable>
-    </Card>
-  );
-}
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
@@ -95,13 +71,3 @@ export default function TabLayout() {
     </Tabs>
   );
 }
-
-const styles = StyleSheet.create({
-  plusButtonInner: {
-    width: 60,
-    height: 60,
-    borderRadius: 30,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-});

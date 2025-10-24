@@ -5,8 +5,9 @@ import { View, Text, Spinner, ScrollView, YStack, H1, XStack, Card } from 'tamag
 import { Pressable, StyleSheet } from 'react-native';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { IconSymbol } from '@/components/ui/icon-symbol';
 import Logo from '@/components/Logo';
+import DailyPromptCards from '@/components/DailyPromptCards';
+import { IconSymbol } from '@/components/ui/icon-symbol';
 
 import { useStreaks } from '@/hooks/use-streaks';
 
@@ -174,7 +175,7 @@ export default function Home() {
         )}
 
         {/* Daily Prompts Section */}
-        {/* <DailyPromptCards */}
+        <DailyPromptCards />
 
         {/* Action Buttons */}
         <YStack gap="$3" mb="$6">
