@@ -15,8 +15,7 @@ export const ALL_CATEGORIES_QUERY = defineQuery(`*[
 
 export const fetchCategories = async (): Promise<ALL_CATEGORIES_QUERYResult> => {
   try {
-    const categories = await sanityClient.fetch(ALL_CATEGORIES_QUERY);
-    return categories;
+    return await sanityClient.fetch(ALL_CATEGORIES_QUERY);
   } catch (error) {
     console.error('Error fetching categories:', error);
     throw error;
