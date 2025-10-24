@@ -28,6 +28,8 @@
   "dependencies": {
     "@clerk/clerk-expo": "^2.17.0",
     "@react-navigation/native": "^6.1.17",
+    "@sanity/client": "^7.12.0",
+    "@sanity/image-url": "^1.2.0",
     "@tamagui/config": "^1.135.4",
     "@tamagui/lucide-icons": "^1.135.4",
     "@tamagui/toast": "^1.135.4",
@@ -44,6 +46,7 @@
     "expo-status-bar": "~2.2.3",
     "expo-system-ui": "~5.0.11",
     "expo-web-browser": "~14.2.0",
+    "groq": "^4.11.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-native": "0.79.6",
