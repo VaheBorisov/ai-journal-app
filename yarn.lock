@@ -3686,6 +3686,47 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@portabletext/react-native@npm:^2.6.3":
+  version: 2.6.3
+  resolution: "@portabletext/react-native@npm:2.6.3"
+  dependencies:
+    "@portabletext/react": "npm:^4.0.3"
+    "@portabletext/types": "npm:^2.0.15"
+  peerDependencies:
+    react: ^18.2 || ^19
+    react-native: ^0.74 || ^0.75 || ^0.76 || ^0.77 || ^0.78 || ^0.79 || ^0.80 || ^0.81 || ^0.82.0
+  checksum: 10/8229d179726edb62c38ba7e072cb4cc39ae8462afa542517eca683436acf6e55e669221c0050d5b9174d59c445528f709858eecde75889c095b425dc3d2edb1a
+  languageName: node
+  linkType: hard
+
+"@portabletext/react@npm:^4.0.3":
+  version: 4.0.3
+  resolution: "@portabletext/react@npm:4.0.3"
+  dependencies:
+    "@portabletext/toolkit": "npm:^3.0.1"
+    "@portabletext/types": "npm:^2.0.15"
+  peerDependencies:
+    react: ^18.2 || ^19
+  checksum: 10/f397b81e0c0d41bbc198c4978946e35a52ad9f7d4f40c2ca47bdf68272c289b62581aaa38738b954bbec742c3eaf43af94e74e3aa3f93248bdacc70f3708c8b9
+  languageName: node
+  linkType: hard
+
+"@portabletext/toolkit@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "@portabletext/toolkit@npm:3.0.1"
+  dependencies:
+    "@portabletext/types": "npm:^2.0.15"
+  checksum: 10/7ca9a68d964b93cd786c0ad91d555e46d9a03814866ce5b6c2f7fd3edcc208df158024b3ed8dab4dd9b12d61fdcf20e064efba5e8916efa233201e9a5076ee1d
+  languageName: node
+  linkType: hard
+
+"@portabletext/types@npm:^2.0.15":
+  version: 2.0.15
+  resolution: "@portabletext/types@npm:2.0.15"
+  checksum: 10/392417a6b964a7563adac06c0143779ce7e9a9487a7f18e67159616d9fb28ac14679911bdd89c8ac972e02d1e6032d3dd183d441a835b676ae44cc9b9ec00001
+  languageName: node
+  linkType: hard
+
 "@radix-ui/react-compose-refs@npm:1.1.2":
   version: 1.1.2
   resolution: "@radix-ui/react-compose-refs@npm:1.1.2"
@@ -6996,6 +7037,7 @@ __metadata:
     "@clerk/clerk-expo": "npm:^2.17.0"
     "@expo/metro-config": "npm:~0.20.0"
     "@expo/metro-runtime": "npm:~5.0.5"
+    "@portabletext/react-native": "npm:^2.6.3"
     "@react-navigation/bottom-tabs": "npm:^7.5.0"
     "@react-navigation/elements": "npm:^2.7.0"
     "@react-navigation/native": "npm:^6.1.17"

@@ -29,6 +29,7 @@
     "@ai-sdk/openai": "^2.0.53",
     "@ai-sdk/react": "^2.0.78",
     "@clerk/clerk-expo": "^2.17.0",
+    "@portabletext/react-native": "^2.6.3",
     "@react-navigation/bottom-tabs": "^7.5.0",
     "@react-navigation/elements": "^2.7.0",
     "@react-navigation/native": "^6.1.17",
