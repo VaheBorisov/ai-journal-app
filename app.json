@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "expo-router-example",
-    "slug": "expo-router-example",
+    "name": "ai-journal-app",
+    "slug": "ai-journal-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "aijournal",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
