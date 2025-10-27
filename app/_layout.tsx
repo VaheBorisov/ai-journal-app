@@ -1,4 +1,4 @@
-import '../tamagui-web.css';
+import '@/polyfills';
 
 import { useEffect } from 'react';
 import { useColorScheme } from 'react-native';
@@ -6,17 +6,19 @@ import { ClerkProvider } from '@clerk/clerk-expo';
 import { tokenCache } from '@clerk/clerk-expo/token-cache';
 import { StatusBar } from 'expo-status-bar';
 import { useFonts } from 'expo-font';
+
 import { Slot, SplashScreen } from 'expo-router';
-
 import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
 
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import TamaguiProvider from 'components/Provider';
+
 import { ModalProvider } from '@/contexts/ModalContext';
+import '../tamagui-web.css';
+
 export { ErrorBoundary } from 'expo-router';
 
 export const unstable_settings = {
-  // Ensure that reloading on `/modal` keeps a back button present.
   initialRouteName: '(tabs)',
 };
 
